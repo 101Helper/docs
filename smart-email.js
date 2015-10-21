@@ -4363,18 +4363,3 @@ jQuery.each([ "Height", "Width" ], function(i, name){
 
 });
 })();
-</script>
-        <script type="text/javascript">
-            $(function() {
-                $('#activator').click(function(){
-                    $('#over').fadeIn('fast',function(){
-                        $('#boxer').animate({'top':'160px'},500);
-                    });
-                });
-                $('#boxerclose').click(function(){
-                    $('#boxer').animate({'top':'-1000px'},500,function(){
-                        $('#over').fadeOut('fast');
-                    });
-                });
-
-            });
