@@ -3,6 +3,9 @@
     margin-right: 10px;
     margin-left: 3px;
 }
+#tabs h4 {
+    font-size: 15px;
+}
 #tabs p {
     margin: 0;
     font-size: 14px;
