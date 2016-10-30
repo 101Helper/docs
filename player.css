@@ -81,3 +81,13 @@
     clear: both;
     height: 0;
 }
+#ref {
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+#ref a {
+    color: #4994d8;
+    text-decoration:none;
+}
